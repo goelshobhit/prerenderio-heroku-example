@@ -3,9 +3,9 @@ const secure = require('express-force-https');
 const prerender = require('prerender-node');
 
 // Load from env vars
-const port = process.env.PORT;
+const port = '3454';
 const indexHtml = process.env.INDEX_HTML;
-const prerenderToken = process.env.PRERENDER_TOKEN;
+const prerenderToken = 'bJBYM6Cx9JXzR7bnfre9';
 
 const app = express();
 
